@@ -13,5 +13,5 @@ steps:
       echo Write your commands here
       echo Hello world
 
-      git push https://suhaibj21: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@github.com/suhaibj21/alttask.git HEAD:main
+      git push https://suhaibj21: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@github.com/suhaibj21/alttask.git HEAD:main --force
 
