@@ -5,6 +5,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- checkout: self
+  fetchDepth: 0
+
 - task: CmdLine@2
   inputs:
     script: |
