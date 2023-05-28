@@ -1,7 +1,7 @@
 trigger:
   branches:
     include:
-      - main
+      - master
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -13,4 +13,5 @@ steps:
       echo Write your commands here
       echo Hello world
 
-      git push https://omaralbakri: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@github.com/omaralbakri/TestSync.git HEAD:main
+      git push https://suhaibj21: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@github.com/suhaibj21/alttask.git HEAD:main
+
